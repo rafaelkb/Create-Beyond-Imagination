@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "beyondimagination:caldasite"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:zircon_sand"
+    }
+  ]
+}

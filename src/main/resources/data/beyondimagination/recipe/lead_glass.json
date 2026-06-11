@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "tag": "c:ingots/lead"
+    },
+    {
+      "tag": "c:ingots/lead"
+    },
+    {
+      "tag": "c:ingots/lead"
+    },
+    {
+      "tag": "c:ingots/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:lead_glass",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

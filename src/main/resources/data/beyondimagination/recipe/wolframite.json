@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "beyondimagination:wolframite"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:raw_tungsten"
+    }
+  ]
+}

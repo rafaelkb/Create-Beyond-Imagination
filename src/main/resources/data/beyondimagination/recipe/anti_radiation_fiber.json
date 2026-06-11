@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "RCR",
+    "P P",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "tfmg:rubber"
+    },
+    "C": {
+      "tag": "c:wires/lead"
+    },
+    "P": {
+      "item": "tfmg:plastic_sheet"
+    },
+    "G": {
+      "item": "beyondimagination:activated_carbon"
+    }
+  },
+  "result": {
+    "id": "beyondimagination:anti_radiation_fiber",
+    "count": 4
+  }
+}

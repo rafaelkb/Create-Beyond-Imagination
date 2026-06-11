@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "beyondimagination:enriched_uranium"
+    },
+    {
+      "item": "beyondimagination:enriched_uranium"
+    },
+    {
+      "tag": "c:dusts/lead"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:uranium_pellet"
+    }
+  ]
+}

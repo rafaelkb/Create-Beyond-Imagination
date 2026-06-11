@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "beyondimagination:titanium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:titanium_plate"
+    }
+  ]
+}

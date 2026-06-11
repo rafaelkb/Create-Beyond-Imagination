@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 160,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "beyondimagination:raw_titanium"
+  },
+  "result": {
+    "count": 1,
+    "id": "beyondimagination:titanium_ingot"
+  }
+}

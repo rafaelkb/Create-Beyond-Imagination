@@ -1,0 +1,17 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "beyondimagination:torbernite"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:impure_uranium_dust"
+    },
+    {
+      "item": "beyondimagination:impure_uranium_dust",
+      "chance": 0.5
+    }
+  ]
+}

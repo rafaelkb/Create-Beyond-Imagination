@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 180,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "count": 1,
+    "id": "beyondimagination:silicon_ingot"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "beyondimagination:silicon_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:silicon_wafer",
+      "count": 4
+    }
+  ]
+}

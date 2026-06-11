@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "beyondimagination:raw_impure_uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:impure_uranium_dust"
+    }
+  ]
+}

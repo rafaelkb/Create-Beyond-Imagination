@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " T ",
+    " U ",
+    " U ",
+    " U ",
+    " V ",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "beyondimagination:titanium_plate"
+    },
+    "U": {
+      "item": "beyondimagination:uranium_pellet"
+    },
+    "V": {
+      "item": "beyondimagination:empty_fuel_rod"
+    }
+  },
+  "result": {
+    "id": "beyondimagination:uranium_fuel_rod"
+  }
+}

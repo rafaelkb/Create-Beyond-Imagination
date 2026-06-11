@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "beyondimagination:zeolite_dust"
+    },
+    {
+      "item": "beyondimagination:zeolite_dust"
+    },
+    {
+      "item": "beyondimagination:activated_carbon"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:zeolite_filter"
+    }
+  ]
+}

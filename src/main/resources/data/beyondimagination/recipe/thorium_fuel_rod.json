@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " T ",
+    " H ",
+    " H ",
+    " H ",
+    " V ",
+    " T "
+  ],
+  "key": {
+    "T": {
+      "item": "beyondimagination:titanium_plate"
+    },
+    "H": {
+      "item": "beyondimagination:thorium_pellet"
+    },
+    "V": {
+      "item": "beyondimagination:empty_fuel_rod"
+    }
+  },
+  "result": {
+    "id": "beyondimagination:thorium_fuel_rod"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:zirconium_ingot_from_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zircon_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "beyondimagination:zircon_sand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zircon_sand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:zirconium_ingot_from_blasting"
+    ]
+  }
+}

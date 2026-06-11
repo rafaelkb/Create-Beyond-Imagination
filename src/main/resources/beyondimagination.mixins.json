@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.darkygaia.beyondimagination.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "beyondimagination.refmap.json",
+  "mixins": [
+    "MixinFluidTankBlockEntity",
+    "MixinSteelTankBlockEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "advancement.beyondimagination.pipe_burst.title",
+      "fallback": "Extreme Pressure"
+    },
+    "description": {
+      "translate": "advancement.beyondimagination.pipe_burst.description",
+      "fallback": "Burst a fluid pipe due to excessive PSI."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "beyondimagination:root",
+  "criteria": {
+    "burst": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

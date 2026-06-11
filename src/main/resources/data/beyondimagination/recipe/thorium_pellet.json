@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "beyondimagination:thorium"
+    },
+    {
+      "item": "beyondimagination:thorium"
+    },
+    {
+      "item": "beyondimagination:activated_carbon"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:thorium_pellet"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "beyondimagination:rutile"
+    }
+  ],
+  "results": [
+    {
+      "item": "beyondimagination:raw_titanium"
+    }
+  ]
+}

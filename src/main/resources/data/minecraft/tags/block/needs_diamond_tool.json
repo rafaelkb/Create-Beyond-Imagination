@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "beyondimagination:block/titanium_deepslate_ore",
+    "beyondimagination:block/titanium_ore",
+    "beyondimagination:block/titanium_block"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  I  ",
+    " IZI ",
+    "  I  "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "Z": {
+      "item": "beyondimagination:zirconium_ingot"
+    }
+  },
+  "result": {
+    "id": "beyondimagination:empty_fuel_rod"
+  }
+}

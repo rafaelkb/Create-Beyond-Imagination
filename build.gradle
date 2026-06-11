@@ -27,6 +27,29 @@ sourceSets.main.resources {
 }
 
 repositories {
+    maven {
+        name = "Create"
+        url = "https://maven.createmod.net"
+    }
+    maven {
+        name = "CurseMaven"
+        url = "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    maven {
+        name = "tterrag"
+        url = "https://maven.tterrag.com/"
+    }
+    maven {
+        name = "ithundxr"
+        url = "https://maven.ithundxr.dev/snapshots"
+    }
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    }
     // Add here additional repositories if required by some of the dependencies below.
 }
 
@@ -118,12 +141,14 @@ configurations {
 }
 
 dependencies {
+    // Create and TFMG dependencies
+    implementation("com.simibubi.create:create-1.21.1:6.0.11-292")
+    implementation "curse.maven:create-industry-693815:7430073"
+
     // Example optional mod dependency with JEI
-    // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
-    // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
-    // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
-    // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    compileOnly "mezz.jei:jei-1.21.1-common-api:19.21.0.247"
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:19.21.0.247"
+    localRuntime "mezz.jei:jei-1.21.1-neoforge:19.21.0.247"
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
@@ -158,6 +183,9 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
     expand replaceProperties
     from "src/main/templates"
     into "build/generated/sources/modMetadata"
+}
+tasks.named('processResources', ProcessResources).configure {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
 // Include the output of "generateModMetadata" as an input directory for the build
 // this works with both building through Gradle and the IDE.
